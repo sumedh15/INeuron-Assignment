@@ -1,4 +1,5 @@
 ## Task 1.2 - Numbers divisible by 7 and not by 5
+new = []
 for i in range(2000,3201):
     if i % 7 == 0 and i % 5 != 0:
         new.append(i)
